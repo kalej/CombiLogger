@@ -1,0 +1,495 @@
+{
+  "default_values": [
+    "ActualIn.n_Engine",
+    "Lambda.LambdaInt",
+    "m_Request",
+    "ECMStat.ST_ActiveAirDem",
+    "Out.M_Engine",
+    "MAF.m_AirInlet",
+    "ActualIn.T_Engine",
+    "ActualIn.T_AirInlet",
+    "ActualIn.p_AirInlet",
+    "IgnProt.fi_Offset",
+    "ActualIn.v_Vehicle",
+    "Out.X_AccPedal",
+    "Lambda.Status",
+    "FCut.CutStatus",
+    "Out.PWM_BoostCntrl",
+    "Out.fi_Ignition",
+    "TorqueProt.M_LowLim"
+  ],
+  "local_ids": [
+    {
+      "id": "10",
+      "name": "Out.CMD_Bypass"
+    },
+    {
+      "id": "13",
+      "name": "Out.CMD_ThrLimpHome"
+    },
+    {
+      "id": "14",
+      "name": "Out.PWM_Purge"
+    },
+    {
+      "id": "15",
+      "name": "Out.CMD_MainRelay"
+    },
+    {
+      "id": "16",
+      "name": "Out.CMD_FuelPumpRelay"
+    },
+    {
+      "id": "17",
+      "name": "Out.PWM_HeatO2SensFront"
+    },
+    {
+      "id": "18",
+      "name": "Out.PWM_HeatO2SensRear"
+    },
+    {
+      "id": "19",
+      "name": "Out.CMD_ACRelay"
+    },
+    {
+      "id": "1A",
+      "name": "Out.PWM_BoostCntrl"
+    },
+    {
+      "id": "1B",
+      "name": "Out.PW_X_Pedal"
+    },
+    {
+      "id": "1C",
+      "name": "Out.PW_M_Engine"
+    },
+    {
+      "id": "1D",
+      "name": "Out.A_Throttle"
+    },
+    {
+      "id": "1E",
+      "name": "Out.X_BoostMeter"
+    },
+    {
+      "id": "21",
+      "name": "Out.CMD_CanisterCloseVlv"
+    },
+    {
+      "id": "22",
+      "name": "Missf.ST_SysActDisld"
+    },
+    {
+      "id": "30",
+      "name": "Out.CMD_WarmUpSP"
+    },
+    {
+      "id": "31",
+      "name": "Out.CMD_KickDown"
+    },
+    {
+      "id": "32",
+      "name": "Out.CMD_CheckEngine"
+    },
+    {
+      "id": "33",
+      "name": "Out.CMD_ShiftUp"
+    },
+    {
+      "id": "34",
+      "name": "Out.CMD_CruiseLamp"
+    },
+    {
+      "id": "35",
+      "name": "Out.ST_Automatic"
+    },
+    {
+      "id": "36",
+      "name": "Out.ST_CruiseActive"
+    },
+    {
+      "id": "37",
+      "name": "Out.V_FuelConsumed"
+    },
+    {
+      "id": "38",
+      "name": "Out.M_Engine"
+    },
+    {
+      "id": "39",
+      "name": "Out.fi_Ignition"
+    },
+    {
+      "id": "3A",
+      "name": "Out.fi_Injection"
+    },
+    {
+      "id": "3B",
+      "name": "Out.t_Injection"
+    },
+    {
+      "id": "3C",
+      "name": "Out.X_ActualGear"
+    },
+    {
+      "id": "3D",
+      "name": "Out.X_EngineType"
+    },
+    {
+      "id": "3F",
+      "name": "ActualIn.ST_ACReq"
+    },
+    {
+      "id": "40",
+      "name": "ActualIn.ST_ElevatedIdle"
+    },
+    {
+      "id": "44",
+      "name": "ActualIn.ST_CheckEngine"
+    },
+    {
+      "id": "45",
+      "name": "ActualIn.ST_TCMSport"
+    },
+    {
+      "id": "46",
+      "name": "ActualIn.ST_ReverseGear"
+    },
+    {
+      "id": "47",
+      "name": "ActualIn.ST_CrankRequest"
+    },
+    {
+      "id": "49",
+      "name": "ActualIn.ST_CruiseA1"
+    },
+    {
+      "id": "4A",
+      "name": "ActualIn.ST_CruiseB1"
+    },
+    {
+      "id": "4B",
+      "name": "ActualIn.ST_CruiseC1"
+    },
+    {
+      "id": "4C",
+      "name": "ActualIn.ST_IgnitionKey"
+    },
+    {
+      "id": "4D",
+      "name": "ActualIn.ST_ClutchBrake1"
+    },
+    {
+      "id": "4E",
+      "name": "ActualIn.V_FuelTank"
+    },
+    {
+      "id": "4F",
+      "name": "ActualIn.AD_ThrottlePot1"
+    },
+    {
+      "id": "50",
+      "name": "ActualIn.AD_ThrottlePot2"
+    },
+    {
+      "id": "52",
+      "name": "ActualIn.AD_PedalPot1"
+    },
+    {
+      "id": "53",
+      "name": "ActualIn.AD_PedalPot2"
+    },
+    {
+      "id": "54",
+      "name": "ActualIn.n_Engine"
+    },
+    {
+      "id": "55",
+      "name": "ActualIn.p_AirInlet"
+    },
+    {
+      "id": "56",
+      "name": "ActualIn.p_AirAmbient"
+    },
+    {
+      "id": "57",
+      "name": "ActualIn.p_AC"
+    },
+    {
+      "id": "58",
+      "name": "ActualIn.p_AirBefThrottle"
+    },
+    {
+      "id": "59",
+      "name": "ActualIn.p_FuelTank"
+    },
+    {
+      "id": "5A",
+      "name": "ActualIn.U_O2SensFront"
+    },
+    {
+      "id": "5B",
+      "name": "ActualIn.U_O2SensRear"
+    },
+    {
+      "id": "5C",
+      "name": "ActualIn.U_Knock"
+    },
+    {
+      "id": "5D",
+      "name": "ActualIn.T_Engine"
+    },
+    {
+      "id": "5E",
+      "name": "ActualIn.T_AirInlet"
+    },
+    {
+      "id": "5F",
+      "name": "ActualIn.T_AirAmbient"
+    },
+    {
+      "id": "61",
+      "name": "ActualIn.T_ACEvaporator"
+    },
+    {
+      "id": "62",
+      "name": "ActualIn.v_Vehicle"
+    },
+    {
+      "id": "63",
+      "name": "ActualIn.v_Vehicle2"
+    },
+    {
+      "id": "64",
+      "name": "ActualIn.I_HeatO2SensFront"
+    },
+    {
+      "id": "65",
+      "name": "ActualIn.I_HeatO2SensRear"
+    },
+    {
+      "id": "66",
+      "name": "ActualIn.t_IgnDetect1"
+    },
+    {
+      "id": "67",
+      "name": "ActualIn.t_IgnDetect2"
+    },
+    {
+      "id": "68",
+      "name": "ActualIn.Q_AirInlet"
+    },
+    {
+      "id": "69",
+      "name": "MAF.m_AirInlet"
+    },
+    {
+      "id": "6B",
+      "name": "ActualIn.M_TCMLimitReq"
+    },
+    {
+      "id": "6C",
+      "name": "ActualIn.I_LoadAlternator"
+    },
+    {
+      "id": "6D",
+      "name": "ActualIn.U_Batt"
+    },
+    {
+      "id": "6E",
+      "name": "ActualIn.X_GearLever"
+    },
+    {
+      "id": "6F",
+      "name": "ActualIn.ST_BrakeLight"
+    },
+    {
+      "id": "79",
+      "name": "KnkAdaptAdap.RefValueLowWind"
+    },
+    {
+      "id": "7A",
+      "name": "KnkAdaptAdap.RefValueHighWind"
+    },
+    {
+      "id": "7B",
+      "name": "AirctlData.iPartN1"
+    },
+    {
+      "id": "7C",
+      "name": "AreaAdap.A_Throttle"
+    },
+    {
+      "id": "7D",
+      "name": "IdleAdap.Q_AirNeutral"
+    },
+    {
+      "id": "7E",
+      "name": "IdleAdap.Q_AirDrive"
+    },
+    {
+      "id": "7F",
+      "name": "obdRunTime"
+    },
+    {
+      "id": "A0",
+      "name": "FlashSave.ST_GasHybridAct"
+    },
+    {
+      "id": "A1",
+      "name": "FlashSave.KnkSoundRedFac"
+    },
+    {
+      "id": "A2",
+      "name": "FlashSave.ST_ShiftUpLamp"
+    },
+    {
+      "id": "A3",
+      "name": "FlashSave.Tech2IdleOffset"
+    },
+    {
+      "id": "A4",
+      "name": "FlashSave.RpmMaxFreeze"
+    },
+    {
+      "id": "A5",
+      "name": "E85Adap.ST_Adap"
+    },
+    {
+      "id": "A6",
+      "name": "E85Adap.V_SavedFuelLevel"
+    },
+    {
+      "id": "A7",
+      "name": "E85.X_EthAct_Tech2"
+    },
+    {
+      "id": "A8",
+      "name": "OBDAdap.ImmoHistory"
+    },
+    {
+      "id": "A9",
+      "name": "AdpFuelAdap.MulFuelAdapt"
+    },
+    {
+      "id": "AA",
+      "name": "AdpFuelAdap.AddFuelAdapt"
+    },
+    {
+      "id": "AB",
+      "name": "BoostAdap.Adaption"
+    },
+    {
+      "id": "AC",
+      "name": "KnkDetAdap.KnkCntCyl"
+    },
+    {
+      "id": "AD",
+      "name": "MissfAdap.MissfCntCyl"
+    },
+    {
+      "id": "AE",
+      "name": "ROMChecksum.ActualChecksum"
+    },
+    {
+      "id": "AF",
+      "name": "FlashSave.l_Elapsed"
+    },
+    {
+      "id": "B0",
+      "name": "ImmoCode"
+    },
+    {
+      "id": "B1",
+      "name": "Purge.FuelFac"
+    },
+    {
+      "id": "B2",
+      "name": "Lambda.LambdaInt"
+    },
+    {
+      "id": "B3",
+      "name": "m_Request"
+    },
+    {
+      "id": "B4",
+      "name": "ECMStat.ST_ActiveAirDem"
+    },
+    {
+      "id": "B5",
+      "name": "Idle.ST_Enable"
+    },
+    {
+      "id": "B6",
+      "name": "ECMStat.ST_EngineSynced"
+    },
+    {
+      "id": "B7",
+      "name": "IdleProt.n_EngineDiff"
+    },
+    {
+      "id": "B8",
+      "name": "CruiseAdap.SwitchOffCond"
+    },
+    {
+      "id": "B9",
+      "name": "CruiseAdap.MissingCond"
+    },
+    {
+      "id": "BA",
+      "name": "Lambda.Status"
+    },
+    {
+      "id": "BB",
+      "name": "FCut.CutStatus"
+    },
+    {
+      "id": "BC",
+      "name": "ECMStat.ST_ThrottleLimpHome"
+    },
+    {
+      "id": "BD",
+      "name": "MAF.m_AirFromp_AirInlet"
+    },
+    {
+      "id": "BE",
+      "name": "Out.M_MaxAtActualRPM"
+    },
+    {
+      "id": "BF",
+      "name": "obdTotalRunTime"
+    },
+    {
+      "id": "C1",
+      "name": "AdpFuel.ST_DoneMul"
+    },
+    {
+      "id": "C2",
+      "name": "AdpFuel.ST_DoneAdd"
+    },
+    {
+      "id": "C3",
+      "name": "DICass.ST_Diagnose"
+    },
+    {
+      "id": "C4",
+      "name": "DICassAdap.ST_Diagnose"
+    },
+    {
+      "id": "C5",
+      "name": "Missf.ST_SglCylFuelCut"
+    },
+    {
+      "id": "C6",
+      "name": "MissfAdap.N_FCutActions"
+    },
+    {
+      "id": "C7",
+      "name": "AdpFuelProt.MulFuelAdapt"
+    },
+    {
+      "id": "C8",
+      "name": "AdpFuelProt.AddFuelAdapt"
+    }
+  ]
+}

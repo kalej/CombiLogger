@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DeviceName = "CombiAdapter" -->
+    <!-- DeviceID = "VID_FFFF&PID_0005" -->
+    <!-- DeviceGUID = "{4495BA8E-EA20-42D5-A09B-ABF6B98925AE}" -->
+    <usb-device vendor-id="65535" product-id="5" />
+</resources>

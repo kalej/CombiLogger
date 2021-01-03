@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">T7CombiLogger</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+
+    <string name="usb_permission_request">com.android.example.USB_PERMISSION</string>
+</resources>
